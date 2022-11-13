@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 5rem;
+  width: 70vw;
+}
+.radio {
+  margin-right: 2rem;
+  margin-bottom: 0.7rem;
+}
+.container .item {
+  flex: 1 1 auto;
+}
+
+.container .form {
+  margin: 0 auto;
+}
+
+.container .form__element {
+  padding: 5px 0px 25px 2px;
+  width: 100%;
+}
+
+.container__button {
+  margin: 0 auto;
+  display: block;
+  width: 40%;
+  margin-top: 4rem;
+}
+
+.container__button button {
+  width: 100%;
+}
+

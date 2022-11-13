@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+
+  <!-- async nos permite subscribirnos a un observable como tambien desuscribirnos -->
+ <!--  {{ quantity$ | async | json }}
+  {{ total$ | async | json }} -->
+  <a [routerLink]="['/']"><span>My store</span></a>
+  <span class="spacer"></span>
+
+  <app-cart class="mouseHover" (click)="goToCheckout()"></app-cart>
+</mat-toolbar>
